@@ -3,9 +3,9 @@ package hello
 import "rsc.io/quote/v3"
 
 func Hello() string {
-	return quote.HelloV3()
+	return quote.Concurrency()
 }
 
 func Proverb() string {
-	return quote.Concurrency()
+	return quote.HelloV3()
 }
